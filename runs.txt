@@ -1,0 +1,160 @@
+Run Number: 1
+Maximum bg traffic rate: 700 Mbps
+bg traffic type: Constant rate
+Loss : 0.01%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(0.065536)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(45.0)--> tcp-rmem(0.08733) in MB
+
+Run Number: 2
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Increasing rate
+Loss : 0.001%
+RTT :50ms
+Maximum htcp rate: 700 Mbps
+tcp-wmem(0.065536)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(4.375)--> (LRO off)--> netdev_max_backlog(45.0)--> tcp-rmem(0.08733) in MB
+
+Run Number: 3
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.1%
+RTT :150ms
+Maximum htcp rate: 500 Mbps
+tcp-wmem(33.554432)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(9.375)--> (LRO off)--> netdev_max_backlog(45.0)--> tcp-rmem(33.554432) in MB
+
+Run Number: 4
+Maximum bg traffic rate: 700 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0%
+RTT :100ms
+Maximum htcp rate: 900 Mbps
+tcp-wmem(33.554432)--> txqueuelen(30.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(11.25)--> (LRO off)--> netdev_max_backlog(45.0)--> tcp-rmem(33.554432) in MB
+
+Run Number: 5
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Decreasing rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(33.554432)--> txqueuelen(30.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(45.0)--> tcp-rmem(33.554432) in MB
+
+Run Number: 6
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Decreasing rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+
+Run Number: 7
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Decreasing rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 8
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Increasing rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 9
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 10
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Constant rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 11
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Constant rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 12
+Maximum bg traffic rate: 500 Mbps
+bg traffic type: Constant rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(0.131072)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 13
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(2.097152)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 14
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(4.194304)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 15
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0001%
+RTT :100ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(10.0)--> (LRO off)--> netdev_max_backlog(7.5)--> tcp-rmem(8.388608) in MB
+
+Run Number: 16
+Maximum bg traffic rate: 600 Mbps
+bg traffic type: Random-walk rate
+Loss : 0.0001%
+RTT :50ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(5.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+
+Run Number: 17
+Maximum bg traffic rate: 700 Mbps
+bg traffic type: Increasing rate
+Loss : 0.0001%
+RTT :50ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(5.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+
+Run Number: 18
+Maximum bg traffic rate: 700 Mbps
+bg traffic type: Decreasing rate
+Loss : 0.0001%
+RTT :50ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(5.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+
+Run Number: 19
+Maximum bg traffic rate: 700 Mbps
+bg traffic type: Constant rate
+Loss : 0.0001%
+RTT :50ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(5.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+
+Run Number: 20
+Maximum bg traffic rate: 900 Mbps
+bg traffic type: Increasing rate
+Loss : 0.0001%
+RTT :50ms
+Maximum htcp rate: 800 Mbps
+tcp-wmem(16.777216)--> txqueuelen(15.0)--> tcp-limit-output-bytes(8.388608)--> est-BDP(5.0)--> (LRO off)--> netdev_max_backlog(15.0)--> tcp-rmem(8.388608) in MB
+

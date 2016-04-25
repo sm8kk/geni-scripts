@@ -49,6 +49,7 @@ for i in `seq 1 ${length[0]}`; do
     netDevLog=${param[8]}
     tcpWmem=${param[9]}
     txqlen=${param[10]}
+    tcpLimOpBy=${param[11]}
 
     runNo=$((runNo+1))
 
@@ -130,6 +131,8 @@ for i in `seq 1 ${length[0]}`; do
     echo "tso On"
     ssh $host3 "sudo ethtool -K eth1 tso on"
     ssh $host3 "sudo ethtool -K eth1 gso on"
+    echo change the buffer size of tcp_limit_output_bytes
+    ssh $host3 "sudo sh tcp-limit-output-bytes.sh $tcpLimOpBy"
     else 
     echo "tso Off"
     ssh $host3 "sudo ethtool -K eth1 tso off"

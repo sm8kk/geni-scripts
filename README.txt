@@ -14,3 +14,5 @@ tcpRmem: tcp-rmem value
 netDevLog: netdev_max_backlog value
 tcpWmem: tcp-wmem
 txqlen: txqueuelen value
+tcp_limit_output_bytes: cat /proc/sys/net/ipv4/tcp_limit_output_bytes (default value = 128KB, this parameter is for changing the buffer size used for tsoOn feature)
+                        increasing the buffer size should increase burstiness
